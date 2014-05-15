@@ -3,11 +3,15 @@
    height:900px;
    background-image:url('../img/bkg-water.png');
 }
+.sprklr{
+   margin:auto;
+   width: 300px;   
+}
 .on-button{
    margin:auto;
    padding-left:30px;
    width: 300px;
-   height: 300px;
+   height: 130px;
 }
 .button-big{
 	position:relative;
@@ -19,7 +23,7 @@
 .button-big a {
 	margin:4px;
 	background:black;
-   width: 250px; /*div height is set by img size+padding, width=110 otherwise goes to screenwidth*/
+   width: 110px; /*div height is set by img size+padding, width=110 otherwise goes to screenwidth*/
    display: block; /*otherwise button will shrink to text size*/
    padding:1px;
    border-top: 1px solid #96d1f8;
@@ -37,7 +41,7 @@
 .button-big span{
 	text-decoration: none;
 	position: absolute;
-	top:15px;
+	top:5px;
 	left:40px;
 	font-size: 2.3em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif; 
@@ -65,6 +69,7 @@
    right:3px;
 }
 .button-boost img{
+   width:110px;
    border:1px solid #;
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;

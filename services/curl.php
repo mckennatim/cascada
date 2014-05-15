@@ -1,8 +1,8 @@
 <?php
-include('/usr/local/lib/tm/ChromePhp.php');
+//include('/usr/local/lib/tm/ChromePhp.php');
 //echo header("Content-type: text/plain");
 echo("dog\n");
-ChromePhp::log("in get.php");
+//ChromePhp::log("in get.php");
 $data = $_SERVER['QUERY_STRING'];
 echo($data);
 //http://cascada.sitebuilt.net/services/curl.php?status=ON&til=1                           

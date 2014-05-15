@@ -21,22 +21,49 @@
 	
 <div data-role="page" data-theme="a" id="main-page" data-url="demo-page">
 	<div id="bkg">
-	</br>
-</br>
-	<div class="on-button">
-    <div class="button-big">
-		<a class="button-boost" href="#" data-rel="dialog">
-			<img id="ima" src="img/Waterfall_off.gif" title="click to start waterfall"/>
-			<span >turn <br/>ON</span>				
-		</a>
-	</div><!--button-big-->
-	</div>
-	<div class="slider">	
-		for
-		</label>	
-		<input id="until" type="range" name="slider-boost-hrs" id="slider-boost-hrs" value="15" min="10" max="120" step="2" />
-		<label>minutes</label>	
-	</div>
+
+		<div class="on-button">
+	    <div class="button-big">
+				<a class="button-boost" href="#" data-rel="dialog">
+					<img id="ima" src="img/Waterfall_off.gif" title="click to start waterfall"/>
+					<span >turn <br/>ON</span>				
+				</a>
+			</div><!--button-big-->
+		</div>
+		<div class="slider">	
+			<label>for</label>	
+			<input id="until" type="range" name="slider-boost-hrs" id="slider-boost-hrs" value="15" min="10" max="120" step="2" />
+			<label>minutes</label>	
+		</div>
+		<div class="sprklrs">
+			<div class="sprklr">
+				<div class="sprklr-btns" data-role="controlgroup" data-type="horizontal" data-mini="true">
+					<a href="#" data-role="button" data-data-icon="arrow-r" data-iconpos="right" data-theme="c">Garden-center </a>
+			    <a data-role="button" data-theme="a" id="ctr-timed">Timed</a>
+		    	<a href="#" data-role="button" data-theme="a" id="ctr-off">Off</a>
+		    	<a href="#" data-role="button" data-theme="a" id="ctr-on">On</a>				
+    	</div				
+				<div class="slider">
+					<label>Timed for</label>	
+					<input id="ctr-sld" type="range" name="slider-boost-hrs" id="slider-boost-hrs" value="15" min="10" max="120" step="2" />
+					<label>minutes</label>
+				</div>
+
+			</div>
+			<div class="sprklr">
+				<div class="sprklr-btns" data-role="controlgroup" data-type="horizontal" data-mini="true">
+					<a href="#" data-role="button" data-data-icon="arrow-r" data-iconpos="right" data-theme="c">Near Bridge </a>
+			    <a data-role="button" data-theme="a" id="br-timed">Timed</a>
+		    	<a href="#" data-role="button" data-theme="a" id="br-off">Off</a>
+		    	<a href="#" data-role="button" data-theme="a" id="br-on">On</a>				
+		    </div				
+				<div class="slider">
+					<label>Timed for</label>	
+					<input id="br-sld" type="range" name="slider-boost-hrs" id="slider-boost-hrs" value="15" min="10" max="120" step="2" />
+					<label>minutes</label>					
+				</div>			
+			</div>
+		</div>
 	</div>
 </div>
 </body>
