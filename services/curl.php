@@ -7,6 +7,7 @@ $data = $_SERVER['QUERY_STRING'];
 echo($data);
 //http://cascada.sitebuilt.net/services/curl.php?status=ON&til=1                           
 $ch = curl_init('sitebuilt.no-ip.biz/?'.$data);                              
+$ch = curl_init('10.0.1.186/?'.$data);                              
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");                                                         
 curl_setopt($ch, CURLOPT_HTTPGET, TRUE); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
